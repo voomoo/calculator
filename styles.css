@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(background.svg)
+}
+
+.main-body {
+    height: 320px;
+    width: 240px;
+    background: #4F5463;
+    border-radius: 8px;
+    border: 3px solid #51B25E;
+}
+
+.btn1 {
+    background: #51B25E;
+    border: none;
+    margin: 3px;
+}
+
+.btn2 {
+    background: #EAEAEA;
+    border: none;
+    margin: 3px;
+}
+
+.display {
+    height: 30%;
+    margin: 3px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: #51B25E;
+}
+
+.buttons {
+    height: 70%;
+}
