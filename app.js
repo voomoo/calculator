@@ -135,4 +135,7 @@ document.getElementById('btn-per').addEventListener('click', function () {
     display.textContent = displayData;
     digitOne = 0;
     digitTwo = 0;
+    if (displayData.length > 12) {
+        display.innerHTML = '<h5>' + displayData + '</h5>';
+    }
 });
